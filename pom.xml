@@ -16,7 +16,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <android.version>4.0.1.2</android.version>
+        <android.version>4.4_r1</android.version>
+        <android.test.version>4.1.1.4</android.test.version>
     </properties>
     <scm>
         <connection>scm:git:git://github.com/github/android.git</connection>
@@ -33,7 +34,7 @@
                     <extensions>true</extensions>
                     <configuration>
                         <sdk>
-                            <platform>16</platform>
+                            <platform>19</platform>
                         </sdk>
                         <undeployBeforeDeploy>true</undeployBeforeDeploy>
                         <proguard>

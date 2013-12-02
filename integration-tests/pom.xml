@@ -15,7 +15,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.google.android</groupId>
+            <groupId>android</groupId>
             <artifactId>android</artifactId>
             <scope>provided</scope>
             <version>${android.version}</version>
@@ -24,7 +24,7 @@
             <groupId>com.google.android</groupId>
             <artifactId>android-test</artifactId>
             <scope>provided</scope>
-            <version>${android.version}</version>
+            <version>${android.test.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.github</groupId>
